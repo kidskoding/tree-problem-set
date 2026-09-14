@@ -7,11 +7,10 @@ authors = [
     { name = "Anirudh Konidala", email = "anirudhkonidala@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pytest>=9.1.1",
+]
 
-[project.scripts]
-tree-problem-set = "tree_problem_set:main"
-
-[build-system]
-requires = ["uv_build>=0.12.11,<0.13.0"]
-build-backend = "uv_build"
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
