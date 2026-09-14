@@ -1,0 +1,17 @@
+[project]
+name = "tree-problem-set"
+version = "0.1.0"
+description = "gfg tree problems for coding interviews!"
+readme = "README.md"
+authors = [
+    { name = "Anirudh Konidala", email = "anirudhkonidala@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+tree-problem-set = "tree_problem_set:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
