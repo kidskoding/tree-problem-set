@@ -4,5 +4,9 @@ from tree import TreeNode
 
 
 def mirror(root: TreeNode | None) -> None:
-    """Swap left/right subtrees at every node, in place."""
-    raise NotImplementedError
+    if not root:
+        return None
+
+    root.left, root.right = root.right, root.left
+    mirror(root.left)
+    mirror(root.right)
