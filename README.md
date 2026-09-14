@@ -61,6 +61,7 @@ Source: [GeeksforGeeks — Tree Coding Problems for Interviews](https://www.geek
 
 ```
 uv run pytest                                   # everything
+nix run .                                       # same, via the flake (optional)
 uv run pytest tests/test_01_height_of_binary_tree.py   # one problem
 ```
 
