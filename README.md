@@ -8,54 +8,54 @@ Source: [GeeksforGeeks — Tree Coding Problems for Interviews](https://www.geek
 
 ### Easy
 
-1. [Height of Binary Tree](src/01_height_of_binary_tree.py) — `tests/test_01_height_of_binary_tree.py`
-2. [Identical Trees](src/02_identical_trees.py) — `tests/test_02_identical_trees.py`
-3. [Mirror Tree](src/03_mirror_tree.py) — `tests/test_03_mirror_tree.py`
-4. [Symmetric Tree](src/04_symmetric_tree.py) — `tests/test_04_symmetric_tree.py`
-5. [Balanced Tree](src/05_balanced_tree.py) — `tests/test_05_balanced_tree.py`
-6. [Children Sum Parent](src/06_children_sum_parent.py) — `tests/test_06_children_sum_parent.py`
-7. [Array to BST](src/07_array_to_bst.py) — `tests/test_07_array_to_bst.py`
-8. [Nodes at Given Distance](src/08_nodes_at_given_distance.py) — `tests/test_08_nodes_at_given_distance.py`
-9. [Inorder Successor in BST](src/09_inorder_successor_in_bst.py) — `tests/test_09_inorder_successor_in_bst.py`
-10. [Kth Largest Element in a BST](src/10_kth_largest_in_bst.py) — `tests/test_10_kth_largest_in_bst.py`
-11. [Balance a BST](src/11_balance_a_bst.py) — `tests/test_11_balance_a_bst.py`
+1. [Height of Binary Tree](https://www.geeksforgeeks.org/dsa/find-the-maximum-depth-or-height-of-a-tree/)
+2. [Identical Trees](https://www.geeksforgeeks.org/dsa/write-c-code-to-determine-if-two-trees-are-identical/)
+3. [Mirror Trees](https://www.geeksforgeeks.org/dsa/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/)
+4. [Symmetric Trees](https://www.geeksforgeeks.org/dsa/symmetric-tree-tree-which-is-mirror-image-of-itself/)
+5. [Balanced tree](https://www.geeksforgeeks.org/dsa/how-to-determine-if-a-binary-tree-is-balanced/)
+6. [Children Sum Parent](https://www.geeksforgeeks.org/dsa/check-for-children-sum-property-in-a-binary-tree/)
+7. [Array to BST](https://www.geeksforgeeks.org/dsa/sorted-array-to-balanced-bst/)
+8. [Nodes at given distance](https://www.geeksforgeeks.org/dsa/print-nodes-distance-k-given-node-binary-tree/)
+9. [Inorder Successor in BST](https://www.geeksforgeeks.org/dsa/inorder-successor-in-binary-search-tree/)
+10. [Kth Largest Element in a BST](https://www.geeksforgeeks.org/dsa/kth-largest-element-bst-using-constant-extra-space/)
+11. [Balance a BST](https://www.geeksforgeeks.org/dsa/convert-normal-bst-balanced-bst/)
 
 ### Medium
 
-12. [Diameter of Tree](src/12_diameter_of_tree.py) — `tests/test_12_diameter_of_tree.py`
-13. [Check if Subtree](src/13_check_if_subtree.py) — `tests/test_13_check_if_subtree.py`
-14. [Check for BST](src/14_check_for_bst.py) — `tests/test_14_check_for_bst.py`
-15. [Single Valued Subtree](src/15_single_valued_subtree.py) — `tests/test_15_single_valued_subtree.py`
-16. [Unique BSTs](src/16_unique_bsts.py) — `tests/test_16_unique_bsts.py`
-17. [Zigzag Tree Traversal](src/17_zigzag_traversal.py) — `tests/test_17_zigzag_traversal.py`
-18. [Vertical Traversal](src/18_vertical_traversal.py) — `tests/test_18_vertical_traversal.py`
-19. [Boundary Traversal](src/19_boundary_traversal.py) — `tests/test_19_boundary_traversal.py`
-20. [Tree from Preorder and Inorder Traversal](src/20_tree_from_preorder_inorder.py) — `tests/test_20_tree_from_preorder_inorder.py`
-21. [BST from Preorder Traversal](src/21_bst_from_preorder.py) — `tests/test_21_bst_from_preorder.py`
-22. [Minimum Distance Between Two Nodes](src/22_min_distance_between_nodes.py) — `tests/test_22_min_distance_between_nodes.py`
-23. [Maximum Sum Leaf to Root Path](src/23_max_sum_leaf_to_root.py) — `tests/test_23_max_sum_leaf_to_root.py`
-24. [Odd Even Level Difference](src/24_odd_even_level_difference.py) — `tests/test_24_odd_even_level_difference.py`
-25. [Lowest Common Ancestor of a Binary Tree](src/25_lowest_common_ancestor.py) — `tests/test_25_lowest_common_ancestor.py`
-26. [Ancestors in Binary Tree](src/26_ancestors_in_binary_tree.py) — `tests/test_26_ancestors_in_binary_tree.py`
-27. [Remove BST Keys Outside the Given Range](src/27_remove_bst_keys_outside_range.py) — `tests/test_27_remove_bst_keys_outside_range.py`
-28. [Pair with Given Target in BST](src/28_pair_with_target_in_bst.py) — `tests/test_28_pair_with_target_in_bst.py`
-29. [BST to Greater Sum Tree](src/29_bst_to_greater_sum_tree.py) — `tests/test_29_bst_to_greater_sum_tree.py`
-30. [Maximum Sum of Non-Adjacent Nodes](src/30_max_sum_non_adjacent.py) — `tests/test_30_max_sum_non_adjacent.py`
-31. [Largest BST in a Binary Tree](src/31_largest_bst_in_binary_tree.py) — `tests/test_31_largest_bst_in_binary_tree.py`
-32. [Extreme Nodes in Alternate Order](src/32_extreme_nodes_alternate.py) — `tests/test_32_extreme_nodes_alternate.py`
-33. [Connect Nodes at Same Level](src/33_connect_nodes_same_level.py) — `tests/test_33_connect_nodes_same_level.py`
+12. [Diameter of Tree](https://www.geeksforgeeks.org/dsa/diameter-of-a-binary-tree/)
+13. [Check if Subtree](https://www.geeksforgeeks.org/dsa/check-if-a-binary-tree-is-subtree-of-another-binary-tree/)
+14. [Check for BST](https://www.geeksforgeeks.org/dsa/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
+15. [Single Valued Subtree](https://www.geeksforgeeks.org/dsa/find-count-of-singly-subtrees/)
+16. [Unique BSTs](https://www.geeksforgeeks.org/dsa/number-of-unique-bst-with-a-given-key-dynamic-programming/)
+17. [Zigzag Tree Traversal](https://www.geeksforgeeks.org/dsa/zigzag-tree-traversal/)
+18. [Vertical Traversal](https://www.geeksforgeeks.org/dsa/vertical-order-traversal-of-binary-tree-using-map/)
+19. [Boundary Traversal](https://www.geeksforgeeks.org/dsa/boundary-traversal-of-binary-tree/)
+20. [Tree from Preorder and Inorder Traversal](https://www.geeksforgeeks.org/dsa/construct-tree-from-given-inorder-and-preorder-traversal/)
+21. [BST from preorder traversal](https://www.geeksforgeeks.org/dsa/construct-bst-from-given-preorder-traversa/)
+22. [Minimum distance between two nodes](https://www.geeksforgeeks.org/dsa/find-distance-between-two-nodes-of-a-binary-tree/)
+23. [Maximum sum leaf to root path](https://www.geeksforgeeks.org/dsa/find-the-maximum-sum-path-in-a-binary-tree/)
+24. [Odd Even Level Difference](https://www.geeksforgeeks.org/dsa/difference-between-sums-of-odd-and-even-levels/)
+25. [Lowest Common Ancestor of a Binary Tree](https://www.geeksforgeeks.org/dsa/lowest-common-ancestor-binary-tree-set-1/)
+26. [Ancestors in Binary Tree](https://www.geeksforgeeks.org/dsa/print-ancestors-of-a-given-node-in-binary-tree/)
+27. [Remove BST keys outside the given range](https://www.geeksforgeeks.org/dsa/remove-bst-keys-outside-the-given-range/)
+28. [Pair with given target in BST](https://www.geeksforgeeks.org/dsa/find-a-pair-with-given-sum-in-bst/)
+29. [BST to greater sum tree](https://www.geeksforgeeks.org/dsa/transform-bst-sum-tree/)
+30. [Maximum sum of non adjacent](https://www.geeksforgeeks.org/dsa/maximum-sum-nodes-binary-tree-no-two-adjacent/)
+31. [Largest BST in a Binary Tree](https://www.geeksforgeeks.org/dsa/largest-bst-binary-tree-set-2/)
+32. [Extreme nodes in alternate order](https://www.geeksforgeeks.org/dsa/print-extreme-nodes-of-each-level-of-binary-tree-in-alternate-order/)
+33. [Connect nodes at same level](https://www.geeksforgeeks.org/dsa/connect-nodes-at-same-level/)
 
 ### Hard
 
-34. [Sorted Linked List to BST](src/34_sorted_list_to_bst.py) — `tests/test_34_sorted_list_to_bst.py`
-35. [Binary Tree to Doubly Linked List](src/35_binary_tree_to_dll.py) — `tests/test_35_binary_tree_to_dll.py`
-36. [Maximum Sum Path Between Two Leaves](src/36_max_sum_path_between_leaves.py) — `tests/test_36_max_sum_path_between_leaves.py`
-37. [K-Sum Paths](src/37_k_sum_paths.py) — `tests/test_37_k_sum_paths.py`
-38. [Number of Turns in a Binary Tree](src/38_number_of_turns.py) — `tests/test_38_number_of_turns.py`
-39. [Merge Two BSTs](src/39_merge_two_bsts.py) — `tests/test_39_merge_two_bsts.py`
-40. [Fixing Two Nodes of a BST](src/40_fix_two_nodes_of_bst.py) — `tests/test_40_fix_two_nodes_of_bst.py`
-41. [Burn Binary Tree](src/41_burn_binary_tree.py) — `tests/test_41_burn_binary_tree.py`
-42. [Clone Binary Tree with Random Pointer](src/42_clone_tree_with_random_pointer.py) — `tests/test_42_clone_tree_with_random_pointer.py`
+34. [Sorted Linked List to BST](https://www.geeksforgeeks.org/dsa/sorted-linked-list-to-balanced-bst/)
+35. [Binary Tree to Doubly Linked List](https://www.geeksforgeeks.org/dsa/convert-binary-tree-to-doubly-linked-list-by-keeping-track-of-visited-node/)
+36. [Maximum sum path between two leaves](https://www.geeksforgeeks.org/dsa/find-maximum-path-sum-two-leaves-binary-tree/)
+37. [K-Sum Paths](https://www.geeksforgeeks.org/dsa/count-all-k-sum-paths-in-a-binary-tree/)
+38. [Number of turns in a binary tree](https://www.geeksforgeeks.org/dsa/number-turns-reach-one-node-binary-tree/)
+39. [Merge two BST’s](https://www.geeksforgeeks.org/dsa/merge-two-bsts-with-limited-extra-space/)
+40. [Fixing two nodes of a BST](https://www.geeksforgeeks.org/dsa/fix-two-swapped-nodes-of-bst/)
+41. [Burn Binary Tree](https://www.geeksforgeeks.org/dsa/burn-the-binary-tree-starting-from-the-target-node/)
+42. [Clone binary tree with random pointer](https://www.geeksforgeeks.org/dsa/clone-binary-tree-random-pointers/)
 
 ## Running tests
 
@@ -65,4 +65,4 @@ nix run .                                       # same, via the flake (optional)
 uv run pytest tests/test_01_height_of_binary_tree.py   # one problem
 ```
 
-`src/tree.py` holds `TreeNode` / `ListNode`. `tests/helpers.py` has `build([...])` (level-order list, `None` = missing node) and `to_list(root)` for writing cases.
+`src/tree.py` holds `TreeNode`. `tests/helpers.py` has `build([...])` (level-order list, `None` = missing node) and `to_list(root)` for writing cases.
