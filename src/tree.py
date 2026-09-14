@@ -7,7 +7,11 @@ from typing import Any
 @dataclass(eq=False)
 class TreeNode:
     value: Any
-    left: TreeNode | None = None
-    right: TreeNode | None = None
-    next_right: TreeNode | None = None  # problem 33
-    random: TreeNode | None = None  # problem 42
+    left: TreeNode | None
+    right: TreeNode | None
+
+    # for problem 33
+    next_right: TreeNode | None
+
+    # for problem 42
+    random: TreeNode | None

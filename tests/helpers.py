@@ -15,7 +15,7 @@ def build(values):
     """Level-order list -> tree; None marks a missing node, whose children are omitted."""
     if not values or values[0] is None:
         return None
-    root = TreeNode(values[0])
+    root = TreeNode(values[0], left=None, right=None, next_right=None, random=None)
     queue = deque([root])
     it = iter(values[1:])
     while queue:
@@ -23,7 +23,7 @@ def build(values):
         for side in ("left", "right"):
             value = next(it, None)
             if value is not None:
-                child = TreeNode(value)
+                child = TreeNode(value, left=None, right=None, next_right=None, random=None)
                 setattr(node, side, child)
                 queue.append(child)
     return root
